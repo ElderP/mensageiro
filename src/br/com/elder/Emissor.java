@@ -18,6 +18,7 @@ public class Emissor extends Usuario implements Mensageiro{
                 "Mensagem Enviada \n " + mensagem);
     }
 
+    //
     public void imprimeMensagem(MensagemTexto mensagem){
         String msg = null ;
         if ( mensagem.getRecebidaEm() != null ){
